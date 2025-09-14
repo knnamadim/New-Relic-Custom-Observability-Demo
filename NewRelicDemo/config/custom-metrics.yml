@@ -1,0 +1,8 @@
+integrations:
+  - name: custom-metrics
+    exec: /etc/newrelic-infra/custom-metrics.sh
+    interval: 60s
+    labels:
+      env: demo
+      role: server
+
